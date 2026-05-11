@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_blue">#1565C0</color>
+    <color name="primary_blue_dark">#0D47A1</color>
+    <color name="teal">#00897B</color>
+    <color name="primary_yellow">#FFB300</color>
+    <color name="snow_white">#FFFFFF</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="correct_green">#4CAF50</color>
+    <color name="wrong_red">#F44336</color>
+    <color name="physics_color">#5C6BC0</color>
+    <color name="chemistry_color">#26A69A</color>
+    <color name="biology_color">#66BB6A</color>
+    <color name="random_color">#FFA726</color>
+    <color name="black">#FF000000</color>
+</resources>

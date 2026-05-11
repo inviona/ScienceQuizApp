@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScienceQuest</string>
+    <string name="welcome_message">Welcome to ScienceQuest!</string>
+    <string name="app_subtitle">Learn science through fun quizzes!</string>
+    <string name="quiz">Quiz</string>
+    <string name="results">Results</string>
+    <string name="settings">Settings</string>
+    <string name="profile_photo">Profile Photo</string>
+</resources>
