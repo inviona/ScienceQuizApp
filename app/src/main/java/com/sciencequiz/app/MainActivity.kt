@@ -1,6 +1,7 @@
 package com.sciencequiz.app
 
 import android.content.Intent
+import android.content.ActivityNotFoundException
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.widget.Toast
@@ -92,12 +93,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun openScienceLinks() {
         val url = "https://www.sciencekids.co.nz/"
-        val intent = Intent(Intent.ACTION_VIEW).apply {
-            data = android.net.Uri.parse(url)
-        }
-        if (intent.resolveActivity(packageManager) != null) {
-            startActivity(intent)
-        } else {
+        try {
+            startActivity(Intent(Intent.ACTION_VIEW, android.net.Uri.parse(url)))
+        } catch (e: ActivityNotFoundException) {
             Toast.makeText(this, "No browser available", Toast.LENGTH_SHORT).show()
         }
     }
